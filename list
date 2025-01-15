@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Bucket List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #4caf50;
+            color: white;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            font-size: 1.2em;
+            margin: 10px 0;
+            padding: 10px;
+            border-left: 5px solid #4caf50;
+            display: flex;
+            align-items: center;
+        }
+
+        li.completed {
+            text-decoration: line-through;
+            opacity: 0.7;
+            border-left-color: #888;
+        }
+
+        .icon {
+            margin-right: 10px;
+            font-size: 1.5em;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                font-size: 16px;
+            }
+
+            h1 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Personal Bucket List</h1>
+    </header>
+    <main>
+        <h2>Things I Want to Do</h2>
+        <ul>
+            <li><span class="icon">&#9733;</span> Travel to Japan</li>
+            <li><span class="icon">&#9733;</span> Learn to play the guitar</li>
+            <li class="completed"><span class="icon">&#10003;</span> Run a marathon</li>
+            <li><span class="icon">&#9733;</span> Write a book</li>
+            <li class="completed"><span class="icon">&#10003;</span> Go skydiving</li>
+        </ul>
+    </main>
+</body>
+</html>
